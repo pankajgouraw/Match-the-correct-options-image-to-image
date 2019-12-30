@@ -3,8 +3,12 @@ margin: 0px;
 padding: 0px;
 }
 
+.logo img{
+  width:150px;
+}
+
 body{
-	background: radial-gradient(#4CAF50, #009688);
+	background: radial-gradient(rgb(242, 189, 189),rgb(179, 156, 156));
 	height: 100vh;
 }	
 #bonds{
@@ -17,7 +21,7 @@ body{
 
 #bonds .fieldsLinker  .FL-right  li{
     position: relative;
-    height: 73px;
+    height: 115px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -32,20 +36,21 @@ body{
          transform:translateY(-50%);
 	}
 
-
 	.mainContainer{
 		padding:15px;
-		max-width:960px;
+		max-width:750px;
 		margin:auto;	
 	}
 
 #header .logo h3 {
 flex-grow: 1;
-text-align: right;
+text-align: center;
 font-family: sans-serif;
-font-size: 28px;
-color: #fff;
+font-size: 25px;
+color: #000;
 margin-top:0px;
+padding-left:10px;
+font-weight: bold;
 }
 #header .logo {
 margin: 0px auto;
@@ -53,7 +58,7 @@ display: flex;
 align-items: center;
 }
 #header {
-margin-bottom: 25px;
+margin-bottom: 25px;margin-top:15px;
 }
 
 .navBtn button{
@@ -84,12 +89,20 @@ background-image: radial-gradient(#3dcd47,#1a1a1a);
     border: none;
 }
 
-img.optImg{ width:60px; }
-.FL-left li{text-align:center;     height: 73px;}
+img.optImg {
+    width: inherit;
+    height: inherit;
+  }
+
+.FL-left li{text-align:center;     height: 115px;}
 
 @media screen and (max-width: 500px) {
 .dropSuggestions{flex-wrap:wrap;}
-#header .logo  img{width:100px;}
+#header .logo  img{width:120px;}
 #header .logo h3{font-size:17px; }
+.img.optImg{
+  height: auto;
+}
+
 } 
 /*  // media quesry end here...*/

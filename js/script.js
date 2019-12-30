@@ -3,7 +3,7 @@ $(document).ready(function(){
  let index = 0;
  $('.headerText').text(header);
  $('headerText').css({'color':headerColor});
- $('background').css({'background-image':background});
+$('body').css({'backgroundImage':background});
 
  // url value
  let url = window.location.href;

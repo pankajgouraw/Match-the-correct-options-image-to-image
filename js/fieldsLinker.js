@@ -279,7 +279,7 @@ var drawColumnsContentA = function(){
 				.attr("ondragover","LM_allowDrop(event)")
 				.attr("ondragstart","LM_drag(event)")
 				.attr("draggable","true")
-				.css({"width":"80%"})
+				.css({"width":"80%", "height":'inherit'})
 				// .text(x);
 				.append(`<img class='optImg' src=${'img/' +x} />`);
 			// var $img = $(`<img class='optImg' src=${'img/' +x} />`);
@@ -435,7 +435,7 @@ var drawColumnsContentA = function(){
 				.attr("ondragover","LM_allowDrop(event)")
 				.attr("ondragstart","LM_drag(event)")
 				.attr("draggable","true")
-				.css({"width":"80%"})
+				.css({"width":"90%", "height":'inherit'})
 				// .text(x);
 				.append(`<img class='optImg' src=${'img/' +x} />`);
 				if (isMandatory && mandatoryTooltips) {

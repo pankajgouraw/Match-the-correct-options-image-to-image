@@ -1,83 +1,33 @@
 
-const background = 'background-image: radial-gradient(#3dcd47,#1a1a1a);';
-const header = 'Match the correct options';
+const background = 'radial-gradient(rgb(242, 189, 189),rgb(179, 156, 156))';
+const header = 'Match the body parts with their respective functions they perform.';
 const headerColor = '#fff';
-
 
 const data = [
 	{
 		'listA' :[
-	                "next.png",
-	                "prev.png",
-	                "happy.png",
-	                "sad.png"
+	                "ears.jpg",
+	                "eyes.png",
+	                "hands.png",
+	                "nose.jpg",
+	                "legs.png"
 		        ],
 
 		'listB' :[
-	                "next.png",
-	                "happy.png",
-	                "prev.png",
-	                "sad.png"
+	                "listening.jpg",
+	                "running.jpg",
+	                "watching.jpg",
+	                "writing.jpg",
+	                "smelling.jpg"
                 ],
 
         'answer' :[
-	               {"from":"next.png","to":"next.png"},
-	               {"from":"prev.png","to":"prev.png"},
-	               {"from":"happy.png","to":'happy.png'},
-	               {"from":"sad.png","to":"sad.png"}
-                 ]	
-	},
-
-	{
-		'listA' :[
-		            "sad.png",
-	                "next.png",
-	                "prev.png",
-	                "happy.png"
-	                
-		        ],
-
-		'listB' :[
-	                "next.png",
-	                "prev.png",
-	                "happy.png",
-	                "sad.png"
-                ],
-
-        'answer' :[
-	               {"from":"next.png","to":"next.png"},
-	               {"from":"happy.png","to":'happy.png'},
-	               {"from":"sad.png","to":"sad.png"},
-	               {"from":"prev.png","to":"prev.png"}
-
-                 ]		
-	},
-
-	{
-				'listA' :[
-	                "next.png",
-	                "happy.png",
-	                 "prev.png",
-	                "sad.png"
-		        ],
-
-		'listB' :[
-		             "prev.png",
-	                "next.png",
-	                "happy.png",
-	                "sad.png"
-                ],
-
-        'answer' :[
-	                {"from":"next.png","to":"next.png"},
-	               {"from":"prev.png","to":"prev.png"},
-	               {"from":"happy.png","to":'happy.png'},
-	               {"from":"sad.png","to":"sad.png"}
+	               {"from":"ears.jpg","to":"listening.jpg"},
+	               {"from":"eyes.png","to":"watching.jpg"},
+	               {"from":"hands.png","to":'writing.jpg'},
+	               {"from":"nose.jpg","to":'smelling.jpg'},
+	               {"from":"legs.png","to":"running.jpg"}
                  ]	
 	}
-	
+
 ];
-
-
-
-
